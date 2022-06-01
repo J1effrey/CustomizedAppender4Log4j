@@ -17,7 +17,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 
-public class HelloApplication extends Application {
+public class LogAnalysisApplication extends Application {
 
     private static final int ALL = 0;
     private static final int DEBUG = 1;
@@ -91,6 +91,7 @@ public class HelloApplication extends Application {
     {
         try {
             reader = new BufferedReader(new FileReader("../datamerge-logs/app.log"));
+//            reader = new BufferedReader(new FileReader("src/main/resources/sample logs.txt"));
             String line = reader.readLine();
             while (line != null) {
                 Switch(line);

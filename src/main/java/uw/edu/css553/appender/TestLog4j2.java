@@ -8,11 +8,11 @@ public class TestLog4j2 {
     public static void main(String[] args)  {
         Logger logger = LogManager.getLogger(TestLog4j2.class);
 //        MyLoggerCustom logger = MyLoggerCustom.create(TestLog4j.class);
-        logger.info("TEST");
-        logger.error("ERROR");
-        logger.debug("debug");
-        logger.warn("warn");
-        logger.fatal("fatal");
-        logger.trace("trace");
+        logger.info("TEST2");
+        logger.error("ERROR2");
+        logger.debug("debug2");
+        logger.warn("warn2");
+        logger.fatal("fatal2");
+        logger.trace("trace2");
     }
 }
