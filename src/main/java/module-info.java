@@ -6,7 +6,8 @@ module uw.edu.css553 {
     requires org.apache.logging.log4j;
 
     opens uw.edu.css553 to javafx.fxml;
-    exports uw.edu.css553;
     exports uw.edu.css553.appender;
     opens uw.edu.css553.appender to javafx.fxml;
+    exports uw.edu.css553.report;
+    opens uw.edu.css553.report to javafx.fxml;
 }

@@ -1,4 +1,4 @@
-package uw.edu.css553;
+package uw.edu.css553.report;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

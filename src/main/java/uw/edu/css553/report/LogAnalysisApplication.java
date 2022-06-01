@@ -1,4 +1,4 @@
-package uw.edu.css553;
+package uw.edu.css553.report;
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;
