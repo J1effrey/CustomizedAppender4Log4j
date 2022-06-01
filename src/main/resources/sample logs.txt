@@ -1,0 +1,128 @@
+2022-05-31 18:41:12.499  INFO 37540 --- [main] .u.p.e.EncryptedBulletinBoardApplication : Starting EncryptedBulletinBoardApplication using Java 17 on vr with PID 37540 (C:\Users\aniru\OneDrive\git\CodeProjects\anirudh\uwcs\3rd Quarter\Distributed Systems\target\classes started by aniru in C:\Users\aniru\OneDrive\git\CodeProjects\anirudh\uwcs\3rd Quarter\Distributed Systems)
+2022-05-31 18:41:12.502  INFO 37540 --- [main] .u.p.e.EncryptedBulletinBoardApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-31 18:41:13.335  INFO 37540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-31 18:41:13.409  INFO 37540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2022-05-31 18:41:14.073  INFO 37540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-31 18:41:14.092  INFO 37540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-31 18:41:14.093  INFO 37540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-31 18:41:14.248  INFO 37540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-31 18:41:14.248  INFO 37540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1690 ms
+2022-05-31 18:41:14.474  INFO 37540 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-31 18:41:14.545  INFO 37540 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-05-31 18:41:14.744  INFO 37540 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-31 18:41:14.857  INFO 37540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-31 18:41:15.035  INFO 37540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-31 18:41:15.056  INFO 37540 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2022-05-31 18:41:15.864  INFO 37540 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-31 18:41:15.872  INFO 37540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-31 18:41:16.357  WARN 37540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-31 18:41:16.899  INFO 37540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-31 18:41:16.916  INFO 37540 --- [main] .u.p.e.EncryptedBulletinBoardApplication : Started EncryptedBulletinBoardApplication in 4.996 seconds (JVM running for 5.791)
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp
+03/22 08:51:06 INFO   :.....mailslot_create: creating mailslot for RSVP via UDP
+03/22 08:51:06 INFO   :....mailbox_register: mailbox allocated for rsvp-udp
+03/22 08:51:06 TRACE  :..entity_initialize: interface 127.0.0.1, entity for rsvp allocated and initialized
+03/22 08:51:06 INFO   :......mailslot_create: creating socket for querying route
+03/22 08:51:06 INFO   :.....mailbox_register: no mailbox necessary for forward
+03/22 08:51:06 INFO   :......mailslot_create: creating mailslot for route engine - informational socket
+03/22 08:51:06 TRACE  :......mailslot_create: ready to accept informational socket connection
+03/22 08:51:11 INFO   :.....mailbox_register: mailbox allocated for route
+03/22 08:51:11 INFO   :.....mailslot_create: creating socket for traffic control module
+03/22 08:51:11 INFO   :....mailbox_register: no mailbox necessary for traffic-control
+03/22 08:51:11 INFO   :....mailslot_create: creating mailslot for RSVP client API
+03/22 08:51:11 INFO   :...mailbox_register: mailbox allocated for rsvp-api
+03/22 08:51:11 INFO   :...mailslot_create: creating mailslot for terminate
+03/22 08:51:11 INFO   :..mailbox_register: mailbox allocated for terminate
+03/22 08:51:11 INFO   :...mailslot_create: creating mailslot for dump
+03/22 08:51:11 INFO   :..mailbox_register: mailbox allocated for dump
+03/22 08:51:11 INFO   :...mailslot_create: creating mailslot for (broken) pipe
+03/22 08:51:11 INFO   :..mailbox_register: mailbox allocated for pipe
+03/22 08:53:22 TRACE  :.....rsvp_event: received event from RAW-IP on interface 9.67.116.98
+03/22 08:53:22 TRACE  :......rsvp_explode_packet: v=1,flg=0,type=2,cksm=54875,ttl=255,rsv=0,len=84
+03/22 08:53:22 TRACE  :.......rsvp_parse_objects: STYLE is WF
+03/22 08:53:22 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:22 TRACE  :......rsvp_event_mapSession: Session=9.67.116.99:1047:6 exists
+03/22 08:53:22 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:22 TRACE  :........flow_timer_stop: Stop T4
+03/22 08:53:22 TRACE  :........flow_timer_start: Start T4
+03/22 08:53:22 TRACE  :.......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:53:22 EVENT  :..mailslot_sitter: process received signal SIGALRM
+03/22 08:53:22 TRACE  :.....event_timerT1_expire: T1 expired
+03/22 08:53:22 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:22 TRACE  :......router_forward_getOI:         source address:   9.67.116.98
+03/22 08:53:22 TRACE  :......router_forward_getOI:         out inf:   9.67.116.98
+03/22 08:53:22 TRACE  :......router_forward_getOI:         gateway:   0.0.0.0
+03/22 08:53:22 TRACE  :......router_forward_getOI:         route handle:   7f5251c8
+03/22 08:53:22 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:53:22 TRACE  :.......rsvp_action_nHop: constructing a PATH
+03/22 08:53:22 TRACE  :.......flow_timer_start: started T1
+03/22 08:53:22 TRACE  :......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:53:22 TRACE  :.......mailslot_send: sending to (9.67.116.99:0)
+03/22 08:53:38 EVENT  :..mailslot_sitter: process received signal SIGALRM
+03/22 08:53:38 TRACE  :.....event_timerT1_expire: T1 expired
+03/22 08:53:38 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:38 TRACE  :......router_forward_getOI:         source address:   9.67.116.98
+03/22 08:53:38 TRACE  :......router_forward_getOI:         out inf:   9.67.116.98
+03/22 08:53:38 TRACE  :......router_forward_getOI:         gateway:   0.0.0.0
+03/22 08:53:38 TRACE  :......router_forward_getOI:         route handle:   7f5251c8
+03/22 08:53:38 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:53:38 TRACE  :.......rsvp_action_nHop: constructing a PATH
+03/22 08:53:38 TRACE  :.......flow_timer_start: started T1
+03/22 08:53:38 TRACE  :......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:53:38 TRACE  :.......mailslot_send: sending to (9.67.116.99:0)
+03/22 08:53:52 TRACE  :.....rsvp_event: received event from RAW-IP on interface 9.67.116.98
+03/22 08:53:52 TRACE  :......rsvp_explode_packet: v=1,flg=0,type=2,cksm=54875,ttl=255,rsv=0,len=84
+03/22 08:53:52 TRACE  :.......rsvp_parse_objects: STYLE is WF
+03/22 08:53:52 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:52 TRACE  :......rsvp_event_mapSession: Session=9.67.116.99:1047:6 exists
+03/22 08:53:52 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:53:52 TRACE  :........flow_timer_stop: Stop T4
+03/22 08:53:52 TRACE  :........flow_timer_start: Start T4
+03/22 08:53:52 TRACE  :.......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:53:53 EVENT  :..mailslot_sitter: process received signal SIGALRM
+03/22 08:53:53 TRACE  :.....event_timerT1_expire: T1 expired
+03/22 08:53:53 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:53:53 TRACE  :......router_forward_getOI:         source address:   9.67.116.98
+03/22 08:53:53 TRACE  :......router_forward_getOI:         out inf:   9.67.116.98
+03/22 08:53:53 TRACE  :......router_forward_getOI:         gateway:   0.0.0.0
+03/22 08:53:53 TRACE  :......router_forward_getOI:         route handle:   7f5251c8
+03/22 08:53:53 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:53:53 TRACE  :.......rsvp_action_nHop: constructing a PATH
+03/22 08:53:53 TRACE  :.......flow_timer_start: started T1
+03/22 08:53:53 TRACE  :......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:53:53 TRACE  :.......mailslot_send: sending to (9.67.116.99:0)
+03/22 08:54:09 EVENT  :..mailslot_sitter: process received signal SIGALRM
+03/22 08:54:09 TRACE  :.....event_timerT1_expire: T1 expired
+03/22 08:54:09 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:54:09 TRACE  :......router_forward_getOI:         source address:   9.67.116.98
+03/22 08:54:09 TRACE  :......router_forward_getOI:         out inf:   9.67.116.98
+03/22 08:54:09 TRACE  :......router_forward_getOI:         gateway:   0.0.0.0
+03/22 08:54:09 TRACE  :......router_forward_getOI:         route handle:   7f5251c8
+03/22 08:54:09 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:09 TRACE  :.......rsvp_action_nHop: constructing a PATH
+03/22 08:54:09 TRACE  :.......flow_timer_start: started T1
+03/22 08:54:09 TRACE  :......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:54:09 TRACE  :.......mailslot_send: sending to (9.67.116.99:0)
+03/22 08:54:22 TRACE  :.....rsvp_event: received event from RAW-IP on interface 9.67.116.98
+03/22 08:54:22 TRACE  :......rsvp_explode_packet: v=1,flg=0,type=2,cksm=54875,ttl=255,rsv=0,len=84
+03/22 08:54:22 TRACE  :.......rsvp_parse_objects: STYLE is WF
+03/22 08:54:22 INFO   :.......rsvp_parse_objects: obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:54:22 TRACE  :......rsvp_event_mapSession: Session=9.67.116.99:1047:6 exists
+03/22 08:54:22 INFO   :.......rsvp_flow_stateMachine: state RESVED, event RESV
+03/22 08:54:22 TRACE  :........flow_timer_stop: Stop T4
+03/22 08:54:22 TRACE  :........flow_timer_start: Start T4
+03/22 08:54:22 TRACE  :.......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:54:24 EVENT  :..mailslot_sitter: process received signal SIGALRM
+03/22 08:54:24 TRACE  :.....event_timerT1_expire: T1 expired
+03/22 08:54:24 INFO   :......router_forward_getOI: Ioctl to query route entry successful
+03/22 08:54:24 TRACE  :......router_forward_getOI:         source address:   9.67.116.98
+03/22 08:54:24 TRACE  :......router_forward_getOI:         out inf:   9.67.116.98
+03/22 08:54:24 TRACE  :......router_forward_getOI:         gateway:   0.0.0.0
+03/22 08:54:24 TRACE  :......router_forward_getOI:         route handle:   7f5251c8
+03/22 08:54:24 INFO   :......rsvp_flow_stateMachine: state RESVED, event T1OUT
+03/22 08:54:24 TRACE  :.......rsvp_action_nHop: constructing a PATH
+03/22 08:54:24 TRACE  :.......flow_timer_start: started T1
+03/22 08:54:24 TRACE  :......rsvp_flow_stateMachine: reentering state RESVED
+03/22 08:54:24 TRACE  :.......mailslot_send: sending to (9.67.116.99:0)
+03/22 08:54:35 TRACE  :......rsvp_event_mapSession: Session=9.67.116.99:1047:6 exists

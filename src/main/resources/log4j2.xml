@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration packages="org.apache.logging.log4j.core,com.yyf.css553">
+    <!--    <ThresholdFilter level="all"/>-->
+    <!--    <Appenders>-->
+    <!--        <Console name="STDOUT" target="SYSTEM_OUT">-->
+    <!--            <PatternLayout pattern="%d %-5p method: [%t] %C{2} (%F:%L) - %m%n"/>-->
+    <!--        </Console>-->
+    <!--    </Appenders>-->
+    <!--    <Loggers>-->
+    <!--        <Root level="all">-->
+    <!--            <AppenderRef ref="STDOUT"/>-->
+    <!--        </Root>-->
+    <!--    </Loggers>-->
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <RollingFile name="RollingFile" fileName="datamerge-logs/app.log"
+                     filePattern="datamerge-logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout pattern="%d{yyyy/MM/dd @ HH:mm:ss z} %-5level %class{36} %L %M - %msg%xEx%n"/>
+            <SizeBasedTriggeringPolicy size="300 MB"/>
+        </RollingFile>
+        <!--        <Statistics name="StatisticsMonitor" failedOnLogLevel="ERROR" failedOnLogLevelCount="10"-->
+        <!--                    failedOnLogLevelInMisSecond="30000" recoveryOnLessLogLevelInMisSecond="120000"/>-->
+        <Statistics name="StatisticsMonitor" url="jdbc:mysql://localhost:3306/application_Logs" driver="com.mysql.cj.jdbc.Driver"
+                    username="root" password="123456"/>
+    </appenders>
+    <loggers>
+        <root level="all">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="RollingFile"/>
+            <!--<appender-ref ref="Sentry" level="ERROR" />-->
+            <appender-ref ref="StatisticsMonitor"/>
+        </root>
+    </loggers>
+</Configuration>
