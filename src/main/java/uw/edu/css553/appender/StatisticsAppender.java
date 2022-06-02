@@ -48,7 +48,7 @@ public class StatisticsAppender extends AbstractAppender {
             Class.forName(this.driver);
             conn = DriverManager.getConnection(url, username, password);
             st = conn.createStatement();
-            String tableSql = "CREATE TABLE IF NOT EXISTS `log_records2`  (\n" +
+            String tableSql = "CREATE TABLE IF NOT EXISTS `log_records`  (\n" +
                     "  `id` int(11) NOT NULL AUTO_INCREMENT,\n" +
                     "  `message` varchar(255) DEFAULT NULL,\n" +
                     "  `username` varchar(255) DEFAULT NULL,\n" +
